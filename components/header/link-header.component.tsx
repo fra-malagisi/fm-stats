@@ -8,7 +8,17 @@ type LinkHeaderProps = {
 
 const LinkHeader = ({ href, label }: LinkHeaderProps): ReactElement => (
   <li>
-    <a href={href} className={css({ _hover: { color: "yellow" } })}>
+    <a
+      href={href}
+      className={css({
+        _hover: {
+          color: "primary.inverted",
+          borderBottomStyle: "solid",
+          borderBottomWidth: "1px",
+        },
+        transition: "all .2s ease-in-out",
+      })}
+    >
       {label}
     </a>
   </li>

@@ -1,7 +1,6 @@
 import { css } from "@/styled-system/css";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { Header } from "@/components/header";
 import { vstack } from "@/styled-system/patterns";
 import { Exo } from "next/font/google";
@@ -37,13 +36,14 @@ export default function RootLayout({
       )}
     >
       <body
+        suppressHydrationWarning={true}
         className={vstack({
-          color: "text",
+          color: "secondary.inverted",
           fontSize: "base",
           fontWeight: "base",
           fontFamily: "exo",
           alignItems: "stretch",
-          backgroundColor: "background",
+          backgroundColor: "primary",
         })}
       >
         <Header />

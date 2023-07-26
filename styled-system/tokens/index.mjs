@@ -1,8 +1,4 @@
 const tokens = {
-  "colors.slate100": {
-    "value": "#BECBD6",
-    "variable": "var(--colors-slate100)"
-  },
   "fontSizes.base": {
     "value": "18px",
     "variable": "var(--font-sizes-base)"
@@ -12,7 +8,7 @@ const tokens = {
     "variable": "var(--font-sizes-title)"
   },
   "fontWeights.base": {
-    "value": "400",
+    "value": "500",
     "variable": "var(--font-weights-base)"
   },
   "fontWeights.bold": {
@@ -63,13 +59,25 @@ const tokens = {
     "value": "1536px",
     "variable": "var(--sizes-breakpoint-2xl)"
   },
-  "colors.text": {
-    "value": "var(--colors-text)",
-    "variable": "var(--colors-text)"
+  "colors.primary": {
+    "value": "var(--colors-primary)",
+    "variable": "var(--colors-primary)"
   },
-  "colors.background": {
-    "value": "var(--colors-background)",
-    "variable": "var(--colors-background)"
+  "colors.primary.inverted": {
+    "value": "var(--colors-primary-inverted)",
+    "variable": "var(--colors-primary-inverted)"
+  },
+  "colors.secondary": {
+    "value": "var(--colors-secondary)",
+    "variable": "var(--colors-secondary)"
+  },
+  "colors.secondary.inverted": {
+    "value": "var(--colors-secondary-inverted)",
+    "variable": "var(--colors-secondary-inverted)"
+  },
+  "colors.colorPalette.inverted": {
+    "value": "var(--colors-color-palette-inverted)",
+    "variable": "var(--colors-color-palette-inverted)"
   }
 }
 
