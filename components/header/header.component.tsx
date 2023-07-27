@@ -18,7 +18,7 @@ const Header = (): ReactElement => (
       })}
     >
       <div>
-        <a href="#/home" className={css({ color: "primary.inverted" })}>
+        <a href="/" className={css({ color: "primary.inverted" })}>
           FM Stats
         </a>
       </div>

@@ -22,14 +22,18 @@
   --colors-primary: white;
   --colors-primary-inverted: black;
   --colors-secondary: #D1D5DB;
-  --colors-secondary-inverted: #383838
+  --colors-secondary-inverted: #383838;
+  --colors-tertiary: blue;
+  --colors-tertiary-inverted: red
 }
 
 [data-color-mode=dark] {
   --colors-primary: black;
   --colors-primary-inverted: white;
   --colors-secondary: #383838;
-  --colors-secondary-inverted: #D1D5DB
+  --colors-secondary-inverted: #D1D5DB;
+  --colors-tertiary: red;
+  --colors-tertiary-inverted: blue
 }
   }
   

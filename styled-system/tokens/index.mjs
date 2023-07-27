@@ -75,6 +75,14 @@ const tokens = {
     "value": "var(--colors-secondary-inverted)",
     "variable": "var(--colors-secondary-inverted)"
   },
+  "colors.tertiary": {
+    "value": "var(--colors-tertiary)",
+    "variable": "var(--colors-tertiary)"
+  },
+  "colors.tertiary.inverted": {
+    "value": "var(--colors-tertiary-inverted)",
+    "variable": "var(--colors-tertiary-inverted)"
+  },
   "colors.colorPalette.inverted": {
     "value": "var(--colors-color-palette-inverted)",
     "variable": "var(--colors-color-palette-inverted)"

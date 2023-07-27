@@ -61,6 +61,20 @@ export default defineConfig({
             },
           },
         },
+        tertiary: {
+          DEFAULT: {
+            value: {
+              _light: "blue",
+              _dark: "red",
+            },
+          },
+          inverted: {
+            value: {
+              _light: "red",
+              _dark: "blue",
+            },
+          },
+        },
       },
     },
   },
